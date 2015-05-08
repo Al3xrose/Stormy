@@ -1,13 +1,15 @@
-package alphonse.asr.stormy;
+package alphonse.asr.stormy.weather;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.TimeZone;
 
+import alphonse.asr.stormy.R;
+
 /**
  * Created by alphonse on 5/2/2015.
  */
-public class CurrentWeather {
+public class Current {
     private String mIcon;
     private long mTime;
     private double mTemperature;

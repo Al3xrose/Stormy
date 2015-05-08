@@ -1,10 +1,12 @@
-package alphonse.asr.stormy;
+package alphonse.asr.stormy.ui;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.Context;
 import android.os.Bundle;
+
+import alphonse.asr.stormy.R;
 
 /**
  * Created by alphonse on 4/30/2015.
