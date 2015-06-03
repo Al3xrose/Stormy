@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 22
+    compileSdkVersion 21
     buildToolsVersion "20.0.0"
 
     defaultConfig {
         applicationId "alphonse.asr.stormy"
         minSdkVersion 14
-        targetSdkVersion 22
+        targetSdkVersion 21
         versionCode 1
         versionName "1.0"
     }
@@ -18,6 +18,8 @@ android {
 }
 
 dependencies {
+    compile 'com.android.support:appcompat-v7:21.0.2'
+    compile 'com.android.support:recyclerview-v7:21.0.2'
     compile 'com.jakewharton:butterknife:6.0.0'
     compile 'com.squareup.okhttp:okhttp:2.3.0'
 }
